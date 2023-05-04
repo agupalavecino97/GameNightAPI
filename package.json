@@ -1,0 +1,24 @@
+{
+  "name": "gamenightapi",
+  "version": "1.0.0",
+  "description": "\"# GameNightAPI\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agupalavecino97/GameNightAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agupalavecino97/GameNightAPI/issues"
+  },
+  "homepage": "https://github.com/agupalavecino97/GameNightAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
