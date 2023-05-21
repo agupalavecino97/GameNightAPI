@@ -1,10 +1,11 @@
 import Sequelize  from "sequelize";
 
 export const sequelize = new Sequelize(
-    'game_night', 
+    'railway', 
     'root', 
-    '', {
-        host: '127.0.0.1',
-        dialect: 'mysql'
+    'cxTaE1HBNV8oRg2HLzZA', {
+        host: 'containers-us-west-8.railway.app',
+        dialect: 'mysql',
+        port: 5586
     }
 );
