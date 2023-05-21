@@ -57,3 +57,19 @@ export const register = async (req, res) => {
         return res.status(500).json({message: error.message});
     }
 }
+
+export const getAll = async (req, res) => {
+    try {
+    
+        const users = await User.findAll();
+
+        if (!users) {
+            return res.status(500).json({ message: 'not users' });
+        } else {
+            return res.json({ users });
+
+        }
+    } catch (error) {
+        return res.status(500).json({message: error.message});
+    }
+}
